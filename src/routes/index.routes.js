@@ -7,6 +7,7 @@ import Home from "../pages/Home";
 import Services from "../pages/Services";
 
 import { AnimatePresence } from "framer-motion";
+import Loading from "../components/Loading";
 
 const Routes = () => {
   let location = useLocation();
@@ -18,6 +19,7 @@ const Routes = () => {
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
       </Switch>
+      <Loading />
     </AnimatePresence>
   );
 };

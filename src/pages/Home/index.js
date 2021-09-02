@@ -19,9 +19,6 @@ const Home = () => {
         <Hero image={Image} title="Arara" description="arara azul" />
         Home
       </motion.div>
-      <Page color="red" />
-
-      <Page color="blue" />
     </>
   );
 };
