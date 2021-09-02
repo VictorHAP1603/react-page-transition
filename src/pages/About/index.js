@@ -8,7 +8,7 @@ const About = () => {
     <motion.div
       initial="out"
       animate="in"
-      exit="out"
+      exit="end"
       variants={animationTwo}
       transition={transition}
     >

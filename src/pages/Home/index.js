@@ -12,7 +12,7 @@ const Home = () => {
       <motion.div
         initial="out"
         animate="in"
-        exit="out"
+        exit="end"
         variants={animationOne}
         transition={transition}
       >

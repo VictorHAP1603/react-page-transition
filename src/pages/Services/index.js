@@ -10,8 +10,8 @@ const Services = () => {
   return (
     <motion.div
       initial="out"
-      animate="end"
-      exit="out"
+      animate="in"
+      exit="end"
       variants={animationThree}
       transition={transition}
     >
