@@ -38,7 +38,7 @@ const Page = ({ color, id }) => {
         },
       });
     }
-  }, [inView]);
+  }, [inView, animation]);
 
   return (
     <div

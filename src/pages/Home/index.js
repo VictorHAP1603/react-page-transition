@@ -1,10 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Hero from "../../components/Hero";
 
 import Image from "../../assets/images/img-1.jpg";
 import { motion } from "framer-motion";
 import { animation, transition } from "../../animation";
-import Page from "../../components/Page";
 
 const Home = () => {
   return (
