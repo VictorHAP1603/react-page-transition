@@ -3,7 +3,7 @@ import Hero from "../../components/Hero";
 
 import Image from "../../assets/images/img-1.jpg";
 import { motion } from "framer-motion";
-import { animationOne, transition } from "../../animation";
+import { animation, transition } from "../../animation";
 import Page from "../../components/Page";
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
         initial="out"
         animate="in"
         exit="end"
-        variants={animationOne}
+        variants={animation}
         transition={transition}
       >
         <Hero image={Image} title="Arara" description="arara azul" />

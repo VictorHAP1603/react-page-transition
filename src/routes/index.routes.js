@@ -1,13 +1,12 @@
 import React from "react";
 import { Switch, Route, useLocation } from "react-router-dom";
-import styled from "styled-components";
 
 import About from "../pages/About";
 import Home from "../pages/Home";
 import Services from "../pages/Services";
 
 import { AnimatePresence } from "framer-motion";
-import Loading from "../components/Loading";
+// import Loading from "../components/Loading";
 
 const Routes = () => {
   let location = useLocation();
@@ -19,7 +18,7 @@ const Routes = () => {
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
       </Switch>
-      <Loading />
+      {/* <Loading /> */}
     </AnimatePresence>
   );
 };
